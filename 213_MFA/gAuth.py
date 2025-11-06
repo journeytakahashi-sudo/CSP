@@ -1,3 +1,6 @@
+# Adapted from this code by dwaipayan_bandyopadhyay :
+# https://www.geeksforgeeks.org/python/two-factor-authentication-using-google-authenticator-in-python/
+
 import time
 import pyotp
 import qrcode
