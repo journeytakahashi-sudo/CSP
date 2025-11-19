@@ -25,7 +25,10 @@ totp = pyotp.TOTP(key)
 #TODO: Create an infinite loop which:
 #      1) asks the user to enter the code (from the Google Authenticator app)
 #         You should either tell the user not to include spaces, OR remove them before the verification step
-
+int i = 0
+while(True):
+    user_code = input("enter code frome micr authenticator, no spaces").script().replace("","")
+    print(totp.verify(user_code))
 #      2) verifies that entered value is true or false, and prints out the result
 #         To verify, use this method:  totp.verify(user_entered_code) 
 #         (where user_entered_code is the user's input)
