@@ -31,8 +31,8 @@ ent_Authorization.pack(pady=5)
 # CODE TO ADD
 
 Btn_login = tk.Button(frame_login, text='login', command=test_my_button)
-
 Btn_login.pack(pady=50)
+
 
 
 frame_auth = tk.Frame(root)
